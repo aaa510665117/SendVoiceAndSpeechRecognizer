@@ -6,10 +6,5 @@
 //  Copyright © 2019 扬张. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "SOSAudioVoice.h"
 #import "SpeechRecognizerManager.h"
-
-@interface libSendVoice : NSObject
-
-@end
