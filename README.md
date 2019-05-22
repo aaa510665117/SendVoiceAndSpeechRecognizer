@@ -5,7 +5,7 @@
 |---|---
 |E-mail|510665117@qq.com
 
-##  use:     pod 'ZYVoiceSpeechRec'  
+##  use:     pod 'SendVoiceAndSpeechRecognizer'  
 
 ### SOSAudioVoice
 SOSAudioVoice为录音类，使用方法见demo
