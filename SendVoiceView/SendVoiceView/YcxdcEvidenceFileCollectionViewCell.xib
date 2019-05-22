@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="YcxdcEvidenceFileCollectionViewCell" id="gTV-IL-0wX" customClass="YcxdcEvidenceFileCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="183" height="203"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zrs-Pc-5Z2">
+                        <rect key="frame" x="5" y="5" width="173" height="193"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osc-yO-SbN">
+                        <rect key="frame" x="6" y="177" width="171" height="20"/>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Pit-Un-vRu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.6588235294117647" green="0.6588235294117647" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72x-7l-dAI">
+                        <rect key="frame" x="163" y="0.0" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="1cd-UW-P7f"/>
+                            <constraint firstAttribute="height" constant="20" id="2hA-Re-jnI"/>
+                        </constraints>
+                        <state key="normal" image="voice_delete"/>
+                        <connections>
+                            <action selector="clickDeleteBtn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="xbb-3l-oe4"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGf-Bz-iqW">
+                        <rect key="frame" x="5" y="5" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="28" id="npJ-bG-0kk"/>
+                            <constraint firstAttribute="height" constant="28" id="u1X-su-JAh"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                        <state key="normal" image="textInfo"/>
+                        <connections>
+                            <action selector="clickVoiceTextBtn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="m30-zT-ikA"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Zrs-Pc-5Z2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="64o-7i-DSk"/>
+                <constraint firstAttribute="trailing" secondItem="72x-7l-dAI" secondAttribute="trailing" id="Bzd-aJ-hDZ"/>
+                <constraint firstItem="Zrs-Pc-5Z2" firstAttribute="trailing" secondItem="Osc-yO-SbN" secondAttribute="trailing" constant="1" id="NUc-s0-lps"/>
+                <constraint firstItem="72x-7l-dAI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="OFd-u4-k08"/>
+                <constraint firstItem="nGf-Bz-iqW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="UNf-8i-JAN"/>
+                <constraint firstAttribute="bottom" secondItem="Zrs-Pc-5Z2" secondAttribute="bottom" constant="5" id="aDf-bO-kFF"/>
+                <constraint firstItem="Zrs-Pc-5Z2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="gTq-pn-7pm"/>
+                <constraint firstAttribute="trailing" secondItem="Zrs-Pc-5Z2" secondAttribute="trailing" constant="5" id="hml-oj-AAf"/>
+                <constraint firstItem="Osc-yO-SbN" firstAttribute="bottom" secondItem="Zrs-Pc-5Z2" secondAttribute="bottom" constant="-1" id="sFx-Lk-S4v"/>
+                <constraint firstItem="Zrs-Pc-5Z2" firstAttribute="leading" secondItem="Osc-yO-SbN" secondAttribute="leading" constant="-1" id="swB-xQ-Ihu"/>
+                <constraint firstItem="nGf-Bz-iqW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="zXY-L2-gJA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="183" height="203"/>
+            <connections>
+                <outlet property="deleteBtn" destination="72x-7l-dAI" id="Mla-1Y-AWO"/>
+                <outlet property="voiceTextBtn" destination="nGf-Bz-iqW" id="u9R-qK-eEK"/>
+                <outlet property="voiceTimeLab" destination="Osc-yO-SbN" id="L2l-tF-E9p"/>
+                <outlet property="yeFileColImg" destination="Zrs-Pc-5Z2" id="kRD-ya-6Bg"/>
+            </connections>
+            <point key="canvasLocation" x="-177.5" y="-55.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="textInfo" width="22" height="22"/>
+        <image name="voice_delete" width="30" height="30"/>
+    </resources>
+</document>

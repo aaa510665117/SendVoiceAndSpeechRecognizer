@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE07941F2294DADF004A8AD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE07941E2294DADF004A8AD2 /* AppDelegate.m */; };
+		DE0794222294DADF004A8AD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0794212294DADF004A8AD2 /* ViewController.m */; };
+		DE0794252294DADF004A8AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0794232294DADF004A8AD2 /* Main.storyboard */; };
+		DE0794272294DAE3004A8AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0794262294DAE3004A8AD2 /* Assets.xcassets */; };
+		DE07942A2294DAE3004A8AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0794282294DAE3004A8AD2 /* LaunchScreen.storyboard */; };
+		DE07942D2294DAE3004A8AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE07942C2294DAE3004A8AD2 /* main.m */; };
+		DE0794372294DAE3004A8AD2 /* SendVoiceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0794362294DAE3004A8AD2 /* SendVoiceViewTests.m */; };
+		DE0794422294DAE3004A8AD2 /* SendVoiceViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0794412294DAE3004A8AD2 /* SendVoiceViewUITests.m */; };
+		DE0794582294DBEA004A8AD2 /* SOSAudioVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0794512294DBEA004A8AD2 /* SOSAudioVoice.m */; };
+		DE0794592294DBEA004A8AD2 /* SendVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0794522294DBEA004A8AD2 /* SendVoiceView.m */; };
+		DE07945B2294DBEA004A8AD2 /* SpeechRecognizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0794562294DBEA004A8AD2 /* SpeechRecognizerManager.m */; };
+		DE07945E2294DD54004A8AD2 /* SplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE07945D2294DD54004A8AD2 /* SplashView.m */; };
+		DE07948622952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE07948322952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.m */; };
+		DE07948722952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE07948422952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0794332294DAE3004A8AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0794122294DADF004A8AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0794192294DADF004A8AD2;
+			remoteInfo = SendVoiceView;
+		};
+		DE07943E2294DAE3004A8AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0794122294DADF004A8AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0794192294DADF004A8AD2;
+			remoteInfo = SendVoiceView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE07941A2294DADF004A8AD2 /* SendVoiceView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendVoiceView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE07941D2294DADF004A8AD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE07941E2294DADF004A8AD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE0794202294DADF004A8AD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE0794212294DADF004A8AD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE0794242294DADF004A8AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE0794262294DAE3004A8AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0794292294DAE3004A8AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE07942B2294DAE3004A8AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE07942C2294DAE3004A8AD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE0794322294DAE3004A8AD2 /* SendVoiceViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendVoiceViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0794362294DAE3004A8AD2 /* SendVoiceViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendVoiceViewTests.m; sourceTree = "<group>"; };
+		DE0794382294DAE3004A8AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE07943D2294DAE3004A8AD2 /* SendVoiceViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendVoiceViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0794412294DAE3004A8AD2 /* SendVoiceViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendVoiceViewUITests.m; sourceTree = "<group>"; };
+		DE0794432294DAE3004A8AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0794512294DBEA004A8AD2 /* SOSAudioVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSAudioVoice.m; sourceTree = "<group>"; };
+		DE0794522294DBEA004A8AD2 /* SendVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendVoiceView.m; sourceTree = "<group>"; };
+		DE0794532294DBEA004A8AD2 /* SpeechRecognizerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechRecognizerManager.h; sourceTree = "<group>"; };
+		DE0794542294DBEA004A8AD2 /* SOSAudioVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSAudioVoice.h; sourceTree = "<group>"; };
+		DE0794562294DBEA004A8AD2 /* SpeechRecognizerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechRecognizerManager.m; sourceTree = "<group>"; };
+		DE0794572294DBEA004A8AD2 /* SendVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendVoiceView.h; sourceTree = "<group>"; };
+		DE07945C2294DD54004A8AD2 /* SplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashView.h; sourceTree = "<group>"; };
+		DE07945D2294DD54004A8AD2 /* SplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashView.m; sourceTree = "<group>"; };
+		DE07948322952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YcxdcEvidenceFileCollectionViewCell.m; sourceTree = "<group>"; };
+		DE07948422952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YcxdcEvidenceFileCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE07948522952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YcxdcEvidenceFileCollectionViewCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0794172294DADF004A8AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE07942F2294DAE3004A8AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE07943A2294DAE3004A8AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0794112294DADF004A8AD2 = {
+			isa = PBXGroup;
+			children = (
+				DE07941C2294DADF004A8AD2 /* SendVoiceView */,
+				DE0794352294DAE3004A8AD2 /* SendVoiceViewTests */,
+				DE0794402294DAE3004A8AD2 /* SendVoiceViewUITests */,
+				DE07941B2294DADF004A8AD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE07941B2294DADF004A8AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE07941A2294DADF004A8AD2 /* SendVoiceView.app */,
+				DE0794322294DAE3004A8AD2 /* SendVoiceViewTests.xctest */,
+				DE07943D2294DAE3004A8AD2 /* SendVoiceViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE07941C2294DADF004A8AD2 /* SendVoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				DE07948822952898004A8AD2 /* SendVoiceDemo */,
+				DE07944F2294DBEA004A8AD2 /* SendVoice */,
+				DE07941D2294DADF004A8AD2 /* AppDelegate.h */,
+				DE07941E2294DADF004A8AD2 /* AppDelegate.m */,
+				DE0794202294DADF004A8AD2 /* ViewController.h */,
+				DE0794212294DADF004A8AD2 /* ViewController.m */,
+				DE07948522952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.h */,
+				DE07948322952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.m */,
+				DE07948422952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.xib */,
+				DE0794232294DADF004A8AD2 /* Main.storyboard */,
+				DE0794262294DAE3004A8AD2 /* Assets.xcassets */,
+				DE0794282294DAE3004A8AD2 /* LaunchScreen.storyboard */,
+				DE07942B2294DAE3004A8AD2 /* Info.plist */,
+				DE07942C2294DAE3004A8AD2 /* main.m */,
+			);
+			path = SendVoiceView;
+			sourceTree = "<group>";
+		};
+		DE0794352294DAE3004A8AD2 /* SendVoiceViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0794362294DAE3004A8AD2 /* SendVoiceViewTests.m */,
+				DE0794382294DAE3004A8AD2 /* Info.plist */,
+			);
+			path = SendVoiceViewTests;
+			sourceTree = "<group>";
+		};
+		DE0794402294DAE3004A8AD2 /* SendVoiceViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0794412294DAE3004A8AD2 /* SendVoiceViewUITests.m */,
+				DE0794432294DAE3004A8AD2 /* Info.plist */,
+			);
+			path = SendVoiceViewUITests;
+			sourceTree = "<group>";
+		};
+		DE07944F2294DBEA004A8AD2 /* SendVoice */ = {
+			isa = PBXGroup;
+			children = (
+				DE0794542294DBEA004A8AD2 /* SOSAudioVoice.h */,
+				DE0794512294DBEA004A8AD2 /* SOSAudioVoice.m */,
+				DE0794532294DBEA004A8AD2 /* SpeechRecognizerManager.h */,
+				DE0794562294DBEA004A8AD2 /* SpeechRecognizerManager.m */,
+			);
+			path = SendVoice;
+			sourceTree = "<group>";
+		};
+		DE07948822952898004A8AD2 /* SendVoiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DE07945C2294DD54004A8AD2 /* SplashView.h */,
+				DE07945D2294DD54004A8AD2 /* SplashView.m */,
+				DE0794572294DBEA004A8AD2 /* SendVoiceView.h */,
+				DE0794522294DBEA004A8AD2 /* SendVoiceView.m */,
+			);
+			path = SendVoiceDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0794192294DADF004A8AD2 /* SendVoiceView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0794462294DAE3004A8AD2 /* Build configuration list for PBXNativeTarget "SendVoiceView" */;
+			buildPhases = (
+				DE0794162294DADF004A8AD2 /* Sources */,
+				DE0794172294DADF004A8AD2 /* Frameworks */,
+				DE0794182294DADF004A8AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendVoiceView;
+			productName = SendVoiceView;
+			productReference = DE07941A2294DADF004A8AD2 /* SendVoiceView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0794312294DAE3004A8AD2 /* SendVoiceViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0794492294DAE3004A8AD2 /* Build configuration list for PBXNativeTarget "SendVoiceViewTests" */;
+			buildPhases = (
+				DE07942E2294DAE3004A8AD2 /* Sources */,
+				DE07942F2294DAE3004A8AD2 /* Frameworks */,
+				DE0794302294DAE3004A8AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0794342294DAE3004A8AD2 /* PBXTargetDependency */,
+			);
+			name = SendVoiceViewTests;
+			productName = SendVoiceViewTests;
+			productReference = DE0794322294DAE3004A8AD2 /* SendVoiceViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE07943C2294DAE3004A8AD2 /* SendVoiceViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE07944C2294DAE3004A8AD2 /* Build configuration list for PBXNativeTarget "SendVoiceViewUITests" */;
+			buildPhases = (
+				DE0794392294DAE3004A8AD2 /* Sources */,
+				DE07943A2294DAE3004A8AD2 /* Frameworks */,
+				DE07943B2294DAE3004A8AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE07943F2294DAE3004A8AD2 /* PBXTargetDependency */,
+			);
+			name = SendVoiceViewUITests;
+			productName = SendVoiceViewUITests;
+			productReference = DE07943D2294DAE3004A8AD2 /* SendVoiceViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0794122294DADF004A8AD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "扬张";
+				TargetAttributes = {
+					DE0794192294DADF004A8AD2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DE0794312294DAE3004A8AD2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DE0794192294DADF004A8AD2;
+					};
+					DE07943C2294DAE3004A8AD2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DE0794192294DADF004A8AD2;
+					};
+				};
+			};
+			buildConfigurationList = DE0794152294DADF004A8AD2 /* Build configuration list for PBXProject "SendVoiceView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0794112294DADF004A8AD2;
+			productRefGroup = DE07941B2294DADF004A8AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0794192294DADF004A8AD2 /* SendVoiceView */,
+				DE0794312294DAE3004A8AD2 /* SendVoiceViewTests */,
+				DE07943C2294DAE3004A8AD2 /* SendVoiceViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0794182294DADF004A8AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE07942A2294DAE3004A8AD2 /* LaunchScreen.storyboard in Resources */,
+				DE07948722952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.xib in Resources */,
+				DE0794272294DAE3004A8AD2 /* Assets.xcassets in Resources */,
+				DE0794252294DADF004A8AD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0794302294DAE3004A8AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE07943B2294DAE3004A8AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0794162294DADF004A8AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0794222294DADF004A8AD2 /* ViewController.m in Sources */,
+				DE07945B2294DBEA004A8AD2 /* SpeechRecognizerManager.m in Sources */,
+				DE07942D2294DAE3004A8AD2 /* main.m in Sources */,
+				DE07941F2294DADF004A8AD2 /* AppDelegate.m in Sources */,
+				DE07945E2294DD54004A8AD2 /* SplashView.m in Sources */,
+				DE07948622952088004A8AD2 /* YcxdcEvidenceFileCollectionViewCell.m in Sources */,
+				DE0794592294DBEA004A8AD2 /* SendVoiceView.m in Sources */,
+				DE0794582294DBEA004A8AD2 /* SOSAudioVoice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE07942E2294DAE3004A8AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0794372294DAE3004A8AD2 /* SendVoiceViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0794392294DAE3004A8AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0794422294DAE3004A8AD2 /* SendVoiceViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0794342294DAE3004A8AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0794192294DADF004A8AD2 /* SendVoiceView */;
+			targetProxy = DE0794332294DAE3004A8AD2 /* PBXContainerItemProxy */;
+		};
+		DE07943F2294DAE3004A8AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0794192294DADF004A8AD2 /* SendVoiceView */;
+			targetProxy = DE07943E2294DAE3004A8AD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE0794232294DADF004A8AD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0794242294DADF004A8AD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0794282294DAE3004A8AD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0794292294DAE3004A8AD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0794442294DAE3004A8AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE0794452294DAE3004A8AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0794472294DAE3004A8AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZS88AX5DM;
+				INFOPLIST_FILE = SendVoiceView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.MedicalMaster.SendVoiceView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0794482294DAE3004A8AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZS88AX5DM;
+				INFOPLIST_FILE = SendVoiceView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.MedicalMaster.SendVoiceView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE07944A2294DAE3004A8AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendVoiceViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.MedicalMaster.SendVoiceViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendVoiceView.app/SendVoiceView";
+			};
+			name = Debug;
+		};
+		DE07944B2294DAE3004A8AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendVoiceViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.MedicalMaster.SendVoiceViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendVoiceView.app/SendVoiceView";
+			};
+			name = Release;
+		};
+		DE07944D2294DAE3004A8AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendVoiceViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.MedicalMaster.SendVoiceViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendVoiceView;
+			};
+			name = Debug;
+		};
+		DE07944E2294DAE3004A8AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SendVoiceViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.MedicalMaster.SendVoiceViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendVoiceView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0794152294DADF004A8AD2 /* Build configuration list for PBXProject "SendVoiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0794442294DAE3004A8AD2 /* Debug */,
+				DE0794452294DAE3004A8AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0794462294DAE3004A8AD2 /* Build configuration list for PBXNativeTarget "SendVoiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0794472294DAE3004A8AD2 /* Debug */,
+				DE0794482294DAE3004A8AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0794492294DAE3004A8AD2 /* Build configuration list for PBXNativeTarget "SendVoiceViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE07944A2294DAE3004A8AD2 /* Debug */,
+				DE07944B2294DAE3004A8AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE07944C2294DAE3004A8AD2 /* Build configuration list for PBXNativeTarget "SendVoiceViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE07944D2294DAE3004A8AD2 /* Debug */,
+				DE07944E2294DAE3004A8AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE0794122294DADF004A8AD2 /* Project object */;
+}
